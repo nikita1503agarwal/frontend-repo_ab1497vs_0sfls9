@@ -95,26 +95,33 @@ export default function Experience() {
     <section id="experience" className="bg-slate-950 text-slate-100">
       <div className="mx-auto max-w-6xl px-4 py-20">
         <h2 className="text-2xl font-semibold tracking-tight">Experience</h2>
-        <div className="mt-8 grid md:grid-cols-2 gap-6">
-          {experiences.map((e) => (
-            <div key={e.role+e.org} className="rounded-xl border border-slate-800 bg-slate-900 p-6">
-              <div className="flex items-center justify-between gap-3">
-                <div>
-                  <h3 className="font-semibold text-white">{e.role}</h3>
-                  <p className="text-slate-300">{e.org}</p>
+        <div className="mt-10 relative">
+          {/* timeline rail */}
+          <div className="absolute left-4 top-0 bottom-0 w-px bg-slate-800/70" aria-hidden></div>
+          <ol className="space-y-8">
+            {experiences.map((e) => (
+              <li key={e.role+e.org} className="relative pl-12">
+                <span className="absolute left-2 top-2 h-4 w-4 rounded-full bg-gradient-to-br from-blue-500 to-cyan-400 border border-slate-900" />
+                <div className="rounded-xl border border-slate-800 bg-slate-900 p-6">
+                  <div className="flex items-center justify-between gap-3">
+                    <div>
+                      <h3 className="font-semibold text-white">{e.role}</h3>
+                      <p className="text-slate-300">{e.org}</p>
+                    </div>
+                    <div className="text-xs text-right text-slate-400">
+                      <div>{e.time}</div>
+                      <div>{e.location}</div>
+                    </div>
+                  </div>
+                  <ul className="mt-4 text-slate-300 text-sm space-y-2 list-disc pl-5">
+                    {e.bullets.map((b) => (
+                      <li key={b}>{b}</li>
+                    ))}
+                  </ul>
                 </div>
-                <div className="text-xs text-right text-slate-400">
-                  <div>{e.time}</div>
-                  <div>{e.location}</div>
-                </div>
-              </div>
-              <ul className="mt-4 text-slate-300 text-sm space-y-2 list-disc pl-5">
-                {e.bullets.map((b) => (
-                  <li key={b}>{b}</li>
-                ))}
-              </ul>
-            </div>
-          ))}
+              </li>
+            ))}
+          </ol>
         </div>
       </div>
     </section>

@@ -26,7 +26,8 @@ export default function Skills() {
         <h2 className="text-2xl font-semibold tracking-tight">Skills</h2>
         <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skills.map((group) => (
-            <div key={group.title} className="rounded-xl border border-slate-800 bg-slate-900 p-6">
+            <div key={group.title} className="relative rounded-xl border border-slate-800 bg-slate-900 p-6 overflow-hidden">
+              <div className="absolute -top-20 -right-16 h-40 w-40 rounded-full bg-gradient-to-br from-blue-500/10 to-cyan-400/10" />
               <h3 className="font-semibold text-white">{group.title}</h3>
               <ul className="mt-3 text-slate-300 text-sm space-y-1">
                 {group.items.map((item) => (
