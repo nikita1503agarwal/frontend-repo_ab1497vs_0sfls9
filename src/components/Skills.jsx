@@ -2,20 +2,20 @@ import React from 'react'
 
 const skills = [
   {
-    title: 'Finance & Valuation',
-    items: ['Financial Modeling (DCF, Comps, Precedents)', 'Valuation Analysis', 'Equity Research', 'Corporate Finance']
+    title: 'Analytics & Risk',
+    items: ['Analytics workflows', 'Risk thinking', 'Measurement and reporting']
   },
   {
-    title: 'Analytics & Data',
-    items: ['Python', 'SQL', 'Excel', 'Tableau', 'Data Visualization', 'Portfolio Optimization']
+    title: 'Data & Tools',
+    items: ['Python', 'SQL', 'Excel modeling', 'Dashboard tools']
   },
   {
-    title: 'Risk & Frameworks',
-    items: ['Liquidity & Operational Risk', 'SR 11-7', 'BCBS 239/248']
+    title: 'Communication',
+    items: ['Clear writing', 'Facilitation', 'Stakeholder updates']
   },
   {
-    title: 'Tools & Platforms',
-    items: ['Bloomberg Terminal', 'PowerPoint', 'Jupyter', 'APIs']
+    title: 'Leadership',
+    items: ['Team operating cadence', 'Events & employer engagement', 'Program design']
   }
 ]
 

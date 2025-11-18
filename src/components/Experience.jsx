@@ -3,89 +3,44 @@ import React from 'react'
 const experiences = [
   {
     role: 'President',
-    org: 'NYU SPS Management & Systems Student Association (MSSA)',
-    time: 'Oct 2025 – Present',
-    location: 'New York, United States',
+    org: 'MAPS (Management & Analytics Professional Society)',
+    time: '2025 – Present',
+    location: 'New York, NY',
     bullets: [
-      'Lead a graduate student organization with 200+ active members',
-      'Organize guest speaker sessions, analytics workshops, and industry panels',
-      'Own transparent reporting, budgeting, and resource allocation'
+      'Lead programming, partnerships, and student opportunities with a steady operating cadence.',
+      'Host speakers and workshops that turn coursework into applied practice.',
+      'Keep budgets clear and reporting simple.'
     ]
   },
   {
-    role: 'Treasurer',
-    org: 'NYU SPS Management & Systems Student Association (MSSA)',
-    time: 'May 2025 – Oct 2025',
-    location: 'New York, United States',
+    role: 'Founder',
+    org: 'ERRC — Economics, Research & Risk Collective',
+    time: '2025 – Present',
+    location: 'New York, NY',
     bullets: [
-      'Managed financial planning, budgeting, and expense tracking',
-      'Coordinated academic and networking events to support the community'
+      'Build a small, focused space to practice equity notes and risk thinking.',
+      'Standardize templates for research briefs and review cycles.'
     ]
   },
   {
-    role: 'Equity Research Intern',
-    org: 'Project Destined',
-    time: 'Jul 2025 – Present',
-    location: 'New York, United States',
+    role: 'Risk & Analytics Work',
+    org: 'Projects and case work',
+    time: 'Ongoing',
+    location: 'New York, NY',
     bullets: [
-      'Built Excel-based investment models and IRR scenarios for potential acquisitions',
-      'Produced investment memos and insights to refine portfolio strategy',
-      'Conducted daily market research and summarized findings for senior analysts'
+      'Liquidity risk monitoring MVP for a fintech partner.',
+      'Academic projects across regression, forecasting, and dashboards.',
+      'Case practice for valuation and market sizing.'
     ]
   },
   {
-    role: 'Data Scientist Extern',
-    org: 'Amazon (Externship)',
-    time: 'Jun 2025 – Aug 2025',
-    location: 'Washington, United States',
+    role: 'Student Engagement & Events',
+    org: 'NYU SPS',
+    time: '2024 – Present',
+    location: 'New York, NY',
     bullets: [
-      'Analyzed 500+ internal documents (~20+ GB) using NLP to surface attrition risks and productivity barriers',
-      'Created 4 segmented employee cohorts and identified 8 role-specific issues informing 10 interventions',
-      'Generated briefing notes and executive decks influencing workforce strategy; projected +15% efficiency and -12% attrition'
-    ]
-  },
-  {
-    role: 'Equity Research Extern',
-    org: 'Externship',
-    time: 'Feb 2025 – May 2025',
-    location: 'United States',
-    bullets: [
-      'Performed deep company analysis (10-K, financials, market position, macro trends) to build investment thesis',
-      'Built DCF, comps, and precedents to estimate intrinsic value',
-      'Drafted a professional investment memo with valuation outcomes and risks'
-    ]
-  },
-  {
-    role: 'Founder | Analyst',
-    org: 'Ravendise',
-    time: 'Mar 2021 – Aug 2024',
-    location: 'Pune, India',
-    bullets: [
-      'Built revenue forecasting models and simulated cash flow scenarios to evaluate pricing and ROI',
-      'Designed automated analytics dashboards tracking performance, liquidity, and churn (200K+ users)',
-      'Audited payment systems and ad-revenue pipelines to identify leakage and compliance gaps; improved forecast accuracy by 15%'
-    ]
-  },
-  {
-    role: 'Co-Founder | Business Analyst',
-    org: 'Vizart School of Art & Design',
-    time: 'Jan 2022 – Jul 2024',
-    location: 'Pune, India',
-    bullets: [
-      'Designed industry-focused curricula leading to +25% enrollment and +40% retention',
-      'Organized career fairs/workshops across 10+ institutions; placed 40+ students in top firms',
-      'Launched targeted campaigns raising program awareness by 30%'
-    ]
-  },
-  {
-    role: 'Project Management Intern',
-    org: 'Repsoft Consultancy Services',
-    time: 'Oct 2021 – Jan 2022',
-    location: 'Hyderabad, India',
-    bullets: [
-      'Gathered requirements via stakeholder interviews to deliver user-friendly applications (+20% engagement)',
-      'Led usability testing and iterative improvements aligned with objectives',
-      'Documented workflows, tracked KPIs, and reduced turnaround time by 10%'
+      'Design and run events with clear outcomes for employers and students.',
+      'Connect teams to mentors and hiring partners.'
     ]
   }
 ]
@@ -96,7 +51,6 @@ export default function Experience() {
       <div className="mx-auto max-w-6xl px-4 py-20">
         <h2 className="text-2xl font-semibold tracking-tight">Experience</h2>
         <div className="mt-10 relative">
-          {/* timeline rail */}
           <div className="absolute left-4 top-0 bottom-0 w-px bg-slate-800/70" aria-hidden></div>
           <ol className="space-y-8">
             {experiences.map((e) => (

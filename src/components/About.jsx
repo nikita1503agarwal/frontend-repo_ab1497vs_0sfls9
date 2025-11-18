@@ -7,29 +7,29 @@ export default function About() {
         <div>
           <h2 className="text-2xl font-semibold tracking-tight">About</h2>
           <p className="mt-4 text-slate-300 leading-relaxed">
-            I’m a graduate student at New York University pursuing an M.S. in Management & Analytics (Risk Analytics). I focus on financial modeling, valuation, and market research—bringing quantitative rigor and clear communication to investment questions.
+            I care about work that is useful and steady. My background blends analytics with organizing teams and building programs that give students real chances to learn on the job. I like problems that involve data, clear thinking, and people.
           </p>
           <p className="mt-4 text-slate-300 leading-relaxed">
-            Recent work spans equity research and private equity case studies, where I build theses with DCF, comps, and precedents. For my AI Liquidity Risk Monitoring Capstone with NextAML, I’m developing signals and an explainable triage flow aligned with SR 11-7 and BCBS 248.
+            At NYU SPS, I focus on management and analytics with a practical lens: how to gather the right information, make a call, and explain it simply. I use AI tools when they help, and I value structure—risk thinking, good documentation, and consistent follow‑through.
           </p>
           <p className="mt-4 text-slate-300 leading-relaxed">
-            As Founder of Ravendise Studio, I shipped forecasting tools and dashboards that improved visibility and planning for global digital products. I enjoy problems that demand both quantitative precision and narrative clarity.
+            I’m also committed to employer partnerships and to building bridges between classrooms and real work. The goal is always the same: useful outcomes, delivered by a team that feels supported and trusted.
           </p>
         </div>
         <div className="rounded-xl border border-slate-800 bg-slate-900 p-6">
           <h3 className="font-semibold text-white">Core Skills</h3>
           <ul className="mt-3 space-y-2 text-slate-300 text-sm">
-            <li>Financial Modeling (DCF, Comps, Precedents)</li>
-            <li>Valuation • Equity Research • Corporate Finance</li>
-            <li>Risk Analytics • Portfolio Insights</li>
-            <li>Excel • PowerPoint • Python • SQL • Tableau</li>
-            <li>Bloomberg Terminal • Market & Sector Research</li>
+            <li>Analytics and decision support</li>
+            <li>Risk thinking and structured problem solving</li>
+            <li>Program design and employer engagement</li>
+            <li>Python • SQL • Excel modeling • Dashboard tools</li>
+            <li>Clear writing, facilitation, and stakeholder communication</li>
           </ul>
           <h3 className="mt-6 font-semibold text-white">Certifications</h3>
           <ul className="mt-3 space-y-2 text-slate-300 text-sm">
             <li>Deloitte — Data Analytics Certification</li>
-            <li>Verified International Academic Qualifications</li>
             <li>BCG — Data Science Certification</li>
+            <li>Verified International Academic Qualifications</li>
             <li>Project Management: Technical</li>
           </ul>
         </div>
