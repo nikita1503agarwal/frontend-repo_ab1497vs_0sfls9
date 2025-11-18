@@ -2,34 +2,34 @@ import React from 'react'
 
 const projects = [
   {
-    title: 'Liquidity Risk Monitoring MVP for NextAML',
-    description: 'A lean prototype to track liquidity indicators and flag anomalies for compliance teams. Built to test workflows and reporting cadence.',
-    tools: ['Python', 'Pandas', 'Plotly', 'FastAPI'],
-    outcome: 'Supported early conversations on monitoring design and stakeholder reporting.'
+    title: 'AI Liquidity Risk Monitoring — NextAML Capstone',
+    description: 'An intelligent framework for anomaly detection in digital-asset portfolios, aligning with SR 11-07 and BCBS 248 guidance.',
+    tools: ['Python', 'Pandas', 'scikit-learn', 'FastAPI'],
+    outcome: 'Proposed indicators and workflows for risk teams; improved explainability and reporting cadence.'
+  },
+  {
+    title: 'Summer 2025 Private Equity Internship Program',
+    description: 'Hands-on modeling and investment memo practice across live deal case studies and sector reviews.',
+    tools: ['Excel', 'Comps', 'DCF', 'Precedents'],
+    outcome: 'Sharpened thesis writing and valuation rigor; accelerated screening templates.'
   },
   {
     title: 'NASA Space Apps — Best Use of Data',
-    description: 'Data pipeline and analysis for a challenge focused on extracting useful signals from open datasets.',
+    description: 'Open-data pipeline and analysis extracting actionable signals from large geospatial datasets.',
     tools: ['Python', 'Jupyter', 'GeoJSON', 'APIs'],
     outcome: 'Recognized for clarity of approach and practical insights.'
   },
   {
     title: 'Women’s World Banking — Financial Inclusion Concept',
-    description: 'Conceptual framework for simple, mobile-first savings and credit journeys, designed for trust and usability.',
+    description: 'Mobile-first savings/credit journeys emphasizing trust, usability, and clear feedback loops.',
     tools: ['User Research', 'Figma', 'Behavioral Design'],
-    outcome: 'Highlighted pathways to engagement and adoption.'
+    outcome: 'Outlined adoption pathways and measurement plan.'
   },
   {
-    title: 'St. Francis Winery — Experiential Marketing Challenge',
-    description: 'Structured a calm, premium tasting-room and digital experience concept that balanced story with conversion.',
-    tools: ['Journey Mapping', 'Messaging', 'Presentation'],
-    outcome: 'Clear recommendations for event strategy and KPIs.'
-  },
-  {
-    title: 'Coursework & Technical Projects',
-    description: 'Hands-on work in analytics, forecasting, and AI — from time series models to prompt-driven tools.',
-    tools: ['Python', 'SQL', 'Excel', 'scikit-learn'],
-    outcome: 'Sharpened fundamentals, documentation, and reproducibility.'
+    title: 'Ravendise Studio — Revenue Forecasting & Dashboards',
+    description: 'Built cash-flow models and automated BI to improve performance visibility across global digital products.',
+    tools: ['Python', 'SQL', 'Excel', 'Tableau'],
+    outcome: '+15% forecast accuracy and improved liquidity monitoring.'
   }
 ]
 

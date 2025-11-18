@@ -16,16 +16,28 @@ export default function Hero() {
             <div className="w-full h-full flex items-center justify-center text-slate-400 text-xs">Headshot</div>
           </div>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-white">
-            Aditya Sakhale
+            Aditya S.
           </h1>
+          <p className="mt-3 text-slate-300 text-sm">New York, New York, United States</p>
           <p className="mt-4 text-slate-300 max-w-2xl">
-            President, Management and Analytics Professional Society • Founder, Employer Relations and Recruitment Committee • Graduate student at NYU SPS, Management and Analytics
+            MS Management & Analytics @ NYU | Aspiring Equity Research & Investment Banking Analyst
           </p>
-          <p className="mt-6 text-lg text-blue-200">Analytics, Strategy, and Real World Impact.</p>
+          <p className="mt-2 text-slate-300 max-w-2xl">
+            Financial modeling, valuation, and data-driven decision-making at the intersection of finance, analytics, and technology.
+          </p>
           <div className="mt-8 flex flex-wrap gap-2 text-xs">
-            {['Finance','Risk Analytics','Data Science','AI-driven Problem Solving'].map((chip) => (
+            {['Equity Research Analysis','Financial Market Research','Consumer Analytics','Risk Analytics','Valuation'].map((chip) => (
               <span key={chip} className="px-3 py-1 rounded-full bg-slate-800/80 border border-slate-700 text-slate-200">{chip}</span>
             ))}
+          </div>
+          <div className="mt-6 flex flex-wrap items-center gap-4 text-sm">
+            <a href="mailto:axs10415@nyu.edu" className="text-blue-300 hover:text-blue-200">axs10415@nyu.edu</a>
+            <span className="text-slate-500">•</span>
+            <a href="https://www.linkedin.com/in/adityasakhale" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">LinkedIn</a>
+            <span className="text-slate-500">•</span>
+            <a href="https://ravendise.com/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">Ravendise Studio</a>
+            <span className="text-slate-500">•</span>
+            <span className="text-slate-300">+1 929 683 3207</span>
           </div>
         </div>
       </div>

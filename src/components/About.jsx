@@ -7,18 +7,36 @@ export default function About() {
         <div>
           <h2 className="text-2xl font-semibold tracking-tight">About</h2>
           <p className="mt-4 text-slate-300 leading-relaxed">
-            I like building things that matter. My work sits at the intersection of leadership and analytics—turning messy, real-world problems into clear decisions. I enjoy connecting students with employers, building practical AI-powered tools, and working with teams on consulting, case competitions, and hackathons. I believe in simple systems, measurable outcomes, and steady progress.
+            I’m a graduate student at New York University pursuing an M.S. in Management & Analytics (Risk Analytics) with a focus on financial modeling, valuation, and data-driven decision-making. I’m passionate about uncovering insights at the intersection of finance, analytics, and technology to help firms make smarter, evidence-based investment and risk decisions.
           </p>
           <p className="mt-4 text-slate-300 leading-relaxed">
-            At NYU SPS, I focus on management and analytics with an emphasis on finance and risk. I’m comfortable moving between data, strategy, and execution—whether it’s validating models, structuring research, or shipping a small MVP to test an idea.
+            My experience spans equity research, private equity, and financial consulting. At Project Destined, I built valuation models and assessed investment opportunities across technology and consumer sectors. Through my AI Liquidity Risk Monitoring Capstone with NextAML, I’m developing an intelligent framework for anomaly detection in digital-asset portfolios—combining regulatory understanding (SR 11-07, BCBS 248) with applied machine learning.
+          </p>
+          <p className="mt-4 text-slate-300 leading-relaxed">
+            As Founder of Ravendise Studio, I created analytics dashboards and financial forecasting tools that improved performance visibility and revenue accuracy across global digital products. I enjoy problems that demand both quantitative precision and creative thinking—whether stress-testing a portfolio, explaining complex metrics to clients, or writing research that connects data to story.
           </p>
         </div>
         <div className="rounded-xl border border-slate-800 bg-slate-900 p-6">
-          <ul className="space-y-3 text-slate-300">
-            <li>• President of the Management and Analytics Professional Society</li>
-            <li>• Founder of the Employer Relations and Recruitment Committee</li>
-            <li>• Graduate student at NYU SPS, Management and Analytics</li>
-            <li>• Focus areas: finance, risk analytics, data science, AI</li>
+          <h3 className="font-semibold text-white">Core Skills</h3>
+          <ul className="mt-3 space-y-2 text-slate-300 text-sm">
+            <li>Financial Modeling (DCF, Comps, Precedents)</li>
+            <li>Valuation Analysis • Equity Research • Corporate Finance</li>
+            <li>Risk Analytics • Portfolio Optimization</li>
+            <li>Excel • PowerPoint • Python • SQL • Tableau • Data Visualization</li>
+            <li>Bloomberg Terminal • Market & Sector Research</li>
+          </ul>
+          <h3 className="mt-6 font-semibold text-white">Top Skills</h3>
+          <ul className="mt-3 space-y-2 text-slate-300 text-sm">
+            <li>Equity Research Analysis</li>
+            <li>Financial Market Research</li>
+            <li>Consumer Analytics</li>
+          </ul>
+          <h3 className="mt-6 font-semibold text-white">Certifications</h3>
+          <ul className="mt-3 space-y-2 text-slate-300 text-sm">
+            <li>Deloitte — Data Analytics Certification</li>
+            <li>Verified International Academic Qualifications</li>
+            <li>BCG — Data Science Certification</li>
+            <li>Project Management: Technical</li>
           </ul>
         </div>
       </div>

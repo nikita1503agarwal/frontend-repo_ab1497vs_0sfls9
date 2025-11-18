@@ -37,10 +37,14 @@ export default function Contact() {
             <div>
               <p className="text-slate-300">Prefer a quick note? Reach out here:</p>
               <div className="mt-4 space-y-2">
-                <a href="mailto:aditya.sakhale@example.com" className="text-blue-300 hover:text-blue-200">aditya.sakhale@example.com</a>
+                <a href="mailto:axs10415@nyu.edu" className="text-blue-300 hover:text-blue-200">axs10415@nyu.edu</a>
                 <div>
-                  <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/adityasakhale" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">LinkedIn</a>
                 </div>
+                <div>
+                  <a href="https://ravendise.com/" target="_blank" rel="noreferrer" className="text-blue-300 hover:text-blue-200">ravendise.com</a>
+                </div>
+                <div className="text-slate-300">+1 929 683 3207</div>
               </div>
             </div>
             <p className="text-xs text-slate-500 mt-6">This form is a front-end only placeholder. Hook it to an API to receive messages.</p>
